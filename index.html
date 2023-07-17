@@ -17,7 +17,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.7.0.js"
-        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
 </head>
 
 <body>
@@ -29,13 +32,17 @@
                         <div class="brand">
                             <h1 class="institute">InternPE</h1>
                             <p class="location">Jaipur Rajasthan</p>
+                            <input type="file" id="imageUpload1" accept="image/*">
+                            <input type="file" id="imageUpload2" accept="image/*">
+                            <input type="file" id="imageUpload3" accept="image/*">
+                            Start Date: <input type="text" id="startDatePicker" placeholder="Select a start date">
+                            <br>
+                            End Date: <input type="text" id="endDatePicker" placeholder="Select an end date">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="logo">
-                            <input type="file" id="imageUpload1" accept="image/*">
-                            <input type="file" id="imageUpload2" accept="image/*">
-                            <input type="file" id="imageUpload3" accept="image/*">
+
                             <img class="title-img" src="Intern Pe.jpeg" alt="Intern-Pe-logo" height="200" width="200">
                         </div>
                     </div>
@@ -57,8 +64,9 @@
                     <p>We are delighted to welcome you for an internship in our company. This internship is being
                         observed
                         by INTERNPE as a learning opportunity for you in the field of Web Development.</p>
-                    <p>Your internship starts on <span>12/06/2023</span> and ends on <span>09/07/2023</span>. It's a
-                        <span>4-week</span> program focused on learning.
+                    <p>Your internship Starts on: <span class="startDate">12/06/2023</span> and Ends on: <span
+                            class="endDate">09/07/2023</span>. It's a
+                        <span class="duration">4-week</span> program focused on learning.
                     </p>
                     <p>We look forward to a fruitful association that will equip you for future projects. Wishing you a
                         meaningful and enjoyable internship experience.</p>

@@ -8,6 +8,9 @@ const pos = prompt("Enter the address");
 $('.location').text(pos);
 const time=prompt("Enter the duration");
 $('.duration').text(time);
+const link=prompt("Enter Your Link");
+$(".link").attr("href", link)
+$(".link").text(link)
 
 $(document).ready(function() {
     $('#imageUpload1').change(function(e) {

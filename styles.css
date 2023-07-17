@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .brand {
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #000;
+    position: relative;
+  }
+  
+  .brand h1,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo .title-img {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  
+  .big-heading {
+    color: #5F7BCD;
+    font-size: 45px;
+    position: relative;
+    margin-left: 25px;
+    top: 95px;
+  }
+  
+  h2 {
+    margin-left: 25px;
+    top: 50px;
+    position: relative;
+    padding: 25px;
+  }
+  
+  p {
+    margin-left: 25px;
+    padding: 0;
+    position: relative;
+    padding: 25px;
+    margin-right: 25px;
+  }
+  
+  .id {
+    position: absolute;
+    right: 25px;
+    top: 255px;
+  }
+  
+  .brand h1 {
+    color: #5F7BCD;
+    font-size: 33px;
+  }
+  
+  .brand p {
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  span {
+    color: #000;
+    font-weight: 700;
+  }
+  
+  footer {
+    position: relative;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+  }
+  
+  .stamp {
+    margin-top: 25px;
+    right: 25px;
+    position: absolute;
+    bottom: 25px;
+  }
+  
+  .sign {
+    margin-top: 25px;
+    left: 25px;
+    position: relative;
+    bottom: 25px
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #5F7BCD;
+    font-weight: bold;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+    .brand h1 {
+      font-size: 28px;
+    }
+    
+    .big-heading {
+      font-size: 32px;
+      top: 50px;
+    }
+    
+    h2,
+    p,
+    .id,
+    footer,
+    .stamp,
+    .sign {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .big-heading {
+      font-size: 24px;
+    }
+    
+    h2,
+    p,
+    .id,
+    footer,
+    .stamp,
+    .sign {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  
